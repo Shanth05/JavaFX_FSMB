@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1cbae81-1c0d-4654-b26c-ac7243be8313" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fsmb 01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MainForm.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MainFormController.java" afterDir="false" />
-    </list>
+    <list default="true" id="b1cbae81-1c0d-4654-b26c-ac7243be8313" name="Changes" comment="Basic Started" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +37,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.AppInitializer.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "dev",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -90,15 +79,37 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721120824717</updated>
-      <workItem from="1721120825877" duration="9181000" />
+      <workItem from="1721120825877" duration="9467000" />
     </task>
+    <task id="LOCAL-00001" summary="Basic Started">
+      <option name="closed" value="true" />
+      <created>1721150765246</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721150765261</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Basic Started" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic Started" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
