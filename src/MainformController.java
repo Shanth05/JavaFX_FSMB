@@ -1,22 +1,18 @@
-import javafx.event.ActionEvent;
-import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
-import javafx.scene.input.KeyEvent;
+
+import java.util.Observable;
 
 public class MainformController {
 
+    public TextField txtEmail;
     public TextField txtName;
-    public TextField txtPrintName;
-    public TextField txtNameR;
-    public TextField txtPrintNameR;
 
-    public void onKeyPressed(KeyEvent keyEvent) {
-        String value = txtName.getText();
-        txtPrintName.setText(value);
-    }
-
-    public void onKeyReleased(KeyEvent keyEvent) {
-        String value2 = txtNameR.getText();
-        txtPrintNameR.setText(value2);
+    public void initialize() {
+        txtEmail.textProperty().addListener((Observable, oldValue, newValue) -> {
+                    System.out.println("new value : " + newValue);
+                    System.out.println("old value : " + oldValue);
+                    txtName.setText(newValue);
+                }
+        );
     }
 }
